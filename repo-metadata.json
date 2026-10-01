@@ -1,0 +1,12 @@
+{
+  "description": "Sandboxed local computer and OS automation agent with strict permission tiers and audit trail in pure PHP",
+  "topics": [
+    "eidcloud",
+    "desktop-agent",
+    "computer-agent",
+    "os-automation",
+    "sandboxed-agent",
+    "process-manager",
+    "php8"
+  ]
+}

@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+// Zero-dependency PSR-4 autoloader
+require_once __DIR__ . '/../src/autoload.php';
+
+use EidCloud\DesktopAgent\CLI\ConsoleApp;
+
+$app = new ConsoleApp();
+exit($app->run($argv));

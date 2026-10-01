@@ -1,0 +1,33 @@
+{
+  "name": "eidcloud/desktop-agent",
+  "description": "Sandboxed local computer and OS automation agent with strict permission tiers and audit trail in pure PHP",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MHD. Shadi AL-Hasan",
+      "email": "shadi@eidcloud.com",
+      "role": "Lead Architect & Maintainer"
+    }
+  ],
+  "require": {
+    "php": ">=8.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "EidCloud\\DesktopAgent\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "EidCloud\\DesktopAgent\\Tests\\": "tests/"
+    }
+  },
+  "bin": [
+    "bin/eidcloud-desktop"
+  ],
+  "scripts": {
+    "test": "php tests/run_tests.php"
+  },
+  "minimum-stability": "stable"
+}
